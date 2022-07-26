@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Broidery</title>
+    <style>
+      .wholePage {
+        margin: 0 auto;
+        padding: 30px 60px;
+        background: linear-gradient(44.8deg, rgba(255, 136, 102, 0.3) -53.1%, rgba(255, 221, 136, 0.2) 49%);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        max-width: 80%;
+      }
+      h1 {
+        text-align: center;
+        color: #525e75;
+        font-size: 32px;
+      }
+      h2 {
+        border: 0.3px solid #525e75;
+        line-height: 50px;
+        padding: 10px;
+        font-size: 18px;
+        border-radius: 10px;
+        text-align: center;
+        color: #525e75;
+        margin: auto 105px auto;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 70%;
+        border-radius: 10px;
+      }
+      p {
+        text-align: center;
+        line-height: 1.5;
+        font-size: 14px;
+        margin: 0 0 10px;
+        color: #525e75;
+        margin: auto 95px auto;
+      }
+      .clickHere {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        color: #525e75;
+      }
+      .learnMore {
+        display: block;
+        margin: 10px 0 0 0;
+        text-decoration: none;
+        color: #78938a;
+        padding: 10px;
+      }
+      .learnMore:hover {
+        text-decoration: underline;
+        font-size: 16px;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        background: #525e75;
+        color: #f1ddbf;
+        font-size: 16px;
+        padding: 25px 20px;
+        border: none;
+        border-radius: 30px;
+        box-shadow: 5px 5px 5px rgba(0 0 0 0.3);
+        transition: 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.7;
+        cursor: pointer;
+      }
+      h3 {
+        text-align: center;
+        padding: 15px;
+        font-size: 10px;
+        color: #92ba92;
+        font-weight: lighter;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="wholePage">
+      <h1>My Broidery</h1>
+      <h2>
+        I love cross-stitch broidery and want to embroider anythyng! Are you?
+      </h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/034/135/original/Broidery-img.jpg?1652383503"
+      />
+      <p>
+        Cross-stitch is a form of sewing and a popular form of counted-thread 
+        embroidery in which X-shaped stitches in a tiled, raster-like 
+        pattern are used to form a picture.
+        Counted cross-stitch projects are worked from a gridded pattern called a 
+        chart and can be used on any count fabric; the count of the fabric and the number 
+        of threads per stitch determine the size of the finished stitching. 
+        There are different methods of stitching a pattern, including the cross-country method 
+        where one colour is stitched at a time, or the parking method where one block of 
+        fabric is stitched at a time and the end of the thread is "parked" 
+        at the next point the same colour occurs in the pattern. 
+        <a
+          class="learnMore"
+          href="https://en.wikipedia.org/wiki/Cross-stitch"
+          target="_blank"
+        >
+          More about cross-stitch (Wiki)</a>
+      <div class="clickHere">
+  Do you want to turn any picture into a cross-stitch pattern?
+        
+  Click here!
+      </div>
+      </p>
+      <button>Turn picture!</button>
+      <h3>This page was built by Alona Pashko</h3>
+    </div>
+    <script>
+      function changeInput(){
+      let name = prompt(`What is your name?`);
+      let email = prompt(`Please, ${name}, enter your email`);
+        return name.length > 0 && email.length > 0;
+      }
+      function toTurn(){
+        if(changeInput()){
+          alert(`Thank you, now you can upload your picture!`);
+        }
+        else{
+          alert(`Sorry, it's a wrong input!`);
+        }
+      }
+      let turnButton = document.querySelector("button");
+      turnButton.addEventListener("click", toTurn);
+    </script>
+  </body>
+</html>
