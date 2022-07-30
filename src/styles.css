@@ -4,6 +4,9 @@
     --secondary-color: #f5f2fe;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
+  body{
+    margin: 100px 0;
+  }
  
   h1,
   h2,
@@ -38,6 +41,9 @@
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
+}
+.primary-link:hover{
+  color: white;
 }
 
 .secondary-link {
@@ -79,6 +85,9 @@
     }
     .launch-link {
       padding: 10px 10px;
+      margin: 20px;
+      display: block;
+      text-align: center;
     }
     .email-link{
       font-size: 22px;
