@@ -9,9 +9,9 @@ font-family: 'Poppins', sans-serif; */
 
   .hero{
     background-color: var(--secondary-color);
-    margin-top: 55px;
+    padding: 60px 20px;
   }
-  
+    
   h1,
   h2,
   h3, h4, h5, h6 {
@@ -35,14 +35,12 @@ font-family: 'Poppins', sans-serif; */
     text-transform: capitalize;
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
-    color: white;
+    color: var(--secondary-color)
 }
 .primary-link:hover{
-  color: white;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
-  .about-paragraphs p {
-    margin: 10px 0;
-  }
   p {
     padding: 20px;
     border-radius: 4px;
@@ -69,7 +67,12 @@ font-family: 'Poppins', sans-serif; */
     color: var(--primary-color);
     padding: 0 40px;
   }
-  
+  .about-hero{
+    padding: 60px 20px;
+  }
+  .about-content{
+    margin: 40px 20px;
+  }
   @media(max-width: 576px)
   {
    
@@ -98,6 +101,12 @@ font-family: 'Poppins', sans-serif; */
    .contact-icons a{
     font-size: 31.5px;
     padding: 0 10px;
+   }
+   .pashko-photo{
+    width: 220px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
    }
   }
 

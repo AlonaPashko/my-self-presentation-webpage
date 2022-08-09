@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="About Alona Pashko, a front-end developer based in Europe">
-  <title>Pashko-about</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Alona Pashko, a front-end developer based in Europe">
+    <title>AlonaPashko</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../src/styles.css">
+    <link rel="stylesheet" href="../src/styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/f06eca9fd9.js" crossorigin="anonymous"></script>
-</head>
+  </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-light fixed-top">
     <div class="container-fluid">
@@ -39,28 +39,26 @@
       </div>
     </div>
   </nav>
-  <h1 class="text-center mt-3">About me</h1>
-    <h3 class="text-center mt-3">Front-end developer from Wejherowo, Poland</h3>
-    <div class="about-paragraphs text-center mt-3">
-        <p>
-            I study object-oriented programming, namely .NET, C# language. I also have 
-            knowledge of the basics of HTML / CSS and JavaScript, which I gained after a 
-            pretty cool workshop from Matt Delac in SheCodes and few courses on Udemy. 
-          </p>
+  <div class="about-hero container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="about-content text-center">
+          <h2 class="mt-3">Alona Pashko</h2>
+          <h3 class="mt-3">Front-end developer based in Wejherowo, Poland</h3>
+          <div class="mt-3">
+            <p>
+                I study object-oriented programming, namely .NET, C# language. I also have 
+                knowledge of the basics of HTML / CSS and JavaScript, which I gained after a 
+                pretty cool workshop from Matt Delac in SheCodes and few courses on Udemy. 
+              </p>
+              <a href="../pages/works.html" title="works-page" class="btn primary-link">See my projects</a>
+        </div>
+        </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-          <img src="../src/broidery-page.png" class="img-fluid p-2 shadow rounded" alt="cross-stich embroidery">
-        </div>
-        <div class="col-sm-4">
-          <img src="../src/weather-app.png" class="img-fluid p-2 shadow rounded" alt="current-weather in any place and forecast">
-        </div>
+      <div class="col-md-6">
+        <img src="../images/my-photo.jpg" class="img-fluid rounded pashko-photo" alt="Alona Pashko selfee in Kyiv" width="320px">
       </div>
     </div>
-    <div id="contact">
-        <h2 class="mt-5">📮 Contact me</h2>
-        <a href="mailto:alyona.pashko@gmail.com" class="email-link" title="email-link"> alyona.pashko@gmail.com </a>
-      </div>
-</body>
+  </div>
+   </body>
 </html>
