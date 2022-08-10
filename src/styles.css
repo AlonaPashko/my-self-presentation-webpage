@@ -67,10 +67,10 @@ font-family: 'Poppins', sans-serif; */
     color: var(--primary-color);
     padding: 0 40px;
   }
-  .about-hero{
-    padding: 60px 20px;
+  .content-container{
+    padding: 70px 20px;
   }
-  .about-content{
+  .content{
     margin: 40px 20px;
   }
   @media(max-width: 576px)
@@ -83,10 +83,10 @@ font-family: 'Poppins', sans-serif; */
       font-size: 21px;
     }
     h3{
-      font-size: 12px;
+      font-size: 15px;
     }
     p{
-      font-size: 10px;
+      font-size: 12px;
       padding: 0 10px;
     }
     .primary-link {
@@ -101,6 +101,9 @@ font-family: 'Poppins', sans-serif; */
    .contact-icons a{
     font-size: 31.5px;
     padding: 0 10px;
+   }
+   .content-container{
+    padding: 30px 5px;
    }
    .pashko-photo{
     width: 220px;
