@@ -84,12 +84,12 @@ font-family: 'Poppins', sans-serif; */
     text-decoration: none;
     margin-bottom: 20px;
   }
-  .contact-icons{
+  footer {
     text-align: center;
-    font-size: 72px;
+    font-size: 38px;
     margin-top: 20px;
   }
-  .contact-icons a{
+  footer a{
     color: var(--primary-color);
     padding: 0 40px;
   }
@@ -124,8 +124,8 @@ font-family: 'Poppins', sans-serif; */
     .email-link{
       font-size: 22px;
     }
-   .contact-icons a{
-    font-size: 31.5px;
+   footer a{
+    font-size: 18px;
     padding: 0 10px;
    }
    .content-container{
