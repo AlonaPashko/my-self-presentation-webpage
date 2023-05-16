@@ -39,8 +39,8 @@ font-family: 'Poppins', sans-serif; */
   nav li{
     display: inline;
     list-style: none;
-    line-height: 42px;
-    margin-left: 15px;
+    line-height: 40px;
+    margin-left: 10px;
   }
   nav a{
     text-decoration: none;
@@ -150,6 +150,9 @@ font-family: 'Poppins', sans-serif; */
   }
    .project-link{
     font-size: 12px;
+   }
+   .skills-list{
+    text-align: left;
    }
   }
 
