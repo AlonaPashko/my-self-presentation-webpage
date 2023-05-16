@@ -55,6 +55,9 @@ font-family: 'Poppins', sans-serif; */
  .skills-list{
   list-style: none;
  }
+ .skills-list a{
+  color: black;
+ }
 .primary-link {
     border-radius: 4px;
     padding: 15px 15px;
